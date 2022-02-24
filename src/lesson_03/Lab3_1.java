@@ -3,8 +3,8 @@ package lesson_03;
 public class Lab3_1 {
     public static void main(String[] args) {
         int[] intArray = {1, 2, 3, 4, 5};
-        int odd = 0;
         int even = 0;
+        int odd = 0;
 
         for (int i = 0; i < intArray.length; i++) {
             if(intArray[i]%2==0) {
