@@ -1,8 +1,8 @@
-package lession_02;
+package lesson_02;
 
 import java.util.Scanner;
 
-public class Lab2_3 {
+public class Lab2_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,14 +15,13 @@ public class Lab2_3 {
         double BMI = weight / (height*2);
 
         if(BMI<=18.5) {
-            System.out.println("Underweight, you should increase your weight to: " + (2*18.5*height));
+            System.out.println("Underweight");
         } if(BMI>18.5 && BMI<=24.9) {
-            System.out.println("Normal weight, keep your weight!");
+            System.out.println("Normal weight");
         } if(BMI>=24.9 && BMI<=29.9) {
-            System.out.println("Overweight,you should decrease your weight to: " + (2*24.9*height));
+            System.out.println("Overweight");
         } if (BMI>29.9) {
-            System.out.println("Obesity, you should decrease your weight to: " + (2*24.9*height));
+            System.out.println("Obesity");
         }
-
     }
 }
