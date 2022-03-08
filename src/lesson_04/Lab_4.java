@@ -3,7 +3,7 @@ package lesson_04;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class lab_4 {
+public class Lab_4 {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
 
